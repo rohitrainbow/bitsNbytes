@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type"
+	content="text/html; charset=windows-1252">
+<title>JAL JEEVAN FORCE</title>
+
+<meta http-equiv="X-UA-Compatible" content="IE=10">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="cache-control" content="no-cache, no store">
+<meta http-equiv="cache-control" content="private">
+<meta http-equiv="cache-control" content="must-revalidate">
+<meta http-equiv="cache-control" content="post-check=0">
+<meta name="viewport" id="viewport"
+	content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta http-equiv="cache-control" content="pre-check=0">
+<meta http-equiv="pragma" content="no-cache">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<style>
+
+/* Tooltip */
+.test+.tooltip>.tooltip-inner {
+	width: 250px;
+	background-color: #d6eaf8;
+	color: #000000;
+	border: 1px solid green;
+	font-size: 14px;
+	font-style: oblique;
+	border-radius: 12px;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+	width: 70%;
+	margin: auto;
+}
+</style>
+
+
+
+<script
+	src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script>
+</head>
+
+<body onload="pageOnLoad();" style="">
+
+	<div align="center">
+		<table>
+			<tbody>
+				<tr>
+					<td><h2>
+							<span style="color: #428bca;"> <b>JAL
+									JEEVAN FORCE</b></span>
+						</h2></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<style type="text/css">
+.bs-example {
+	margin: 25px;
+}
+</style>
+
+	
+
+
+
+
+
+
+
+
+
+	<div class="container2 container">
+		<div align="center"
+			style="border: 2px solid; margin: 10px; border-radius: 25px; color: #428bca; border-color: #428bca">
+			<div class="bs-example" style="border: 0px solid;">
+
+
+				<form id="userDetail" name="newWaterConnForm" class="form-inline"
+					
+					method="POST">
+
+					<input id="abm_Idn.ISSLUM" name="abm_Idn.ISSLUM" value="Y"
+						type="hidden">
+
+					<div align="center"
+						style="font-family: Verdana, Arial, sans-serif; font-weight: bold; font-size: 16px;">
+
+						Application Form For Existing Water Connection
+						<hr width="80%" noshade="noshade" style="border: 1px solid #369">
+
+					</div>
+					<br>
+					<div>
+						<div style="width: 80%; float: left; border: 2px; height: 25%;">
+
+							<div style="width: 100%; border: 2px; height: 25%;">
+
+
+								<div class="form-group" style="float: left;">
+									<label for="exampleInputName2">Applicant</label> <select
+										id="IDN_SALUTATION" name="abm_Idn.IDN_SALUTATION"
+										class="form-control">
+										<option value="Mr.">Mr.</option>
+										<option value="Mrs.">Mrs.</option>
+										<option value="M/S.">M/S.</option>
+										<option value="Others.">Others.</option>
+
+									</select> &nbsp; <input type="text" class="form-control" id="first_Name"
+										name="first_Name" placeholder="First Name"><span
+										style="color: red">*</span>&nbsp; <input type="text"
+										class="form-control" id="middle_Name" name="middle_Name"
+										placeholder="Middle Name">&nbsp; <input type="text"
+										class="form-control" id="last_Name" name="last_Name"
+										placeholder="Last Name"><span style="color: red">*</span>
+								</div>
+
+							</div>
+
+
+						</div>
+
+						<div style="width: 20%; float: right; border: 2px; height: 50%;">
+
+
+
+						</div>
+
+					</div>
+
+					<br> &nbsp;
+
+					<div class="text-left">
+
+						<div class="form-group">
+							
+
+
+
+							<input id="wardName" name="abm_Location.LOC_NAME" type="hidden"
+								value="">
+						</div>
+
+					</div>
+					<div class="table-responsive">
+						<table class="table table-condensed">
+
+							<tbody>
+								<tr>
+									<td><label for="addressline1">Building Name</label> <input
+										id="ADDRESS_LINE1" name="abm_Address_Master.ADDRESS_LINE1"
+										class="form-control" type="text" value="" maxlength="100"><span
+										style="color: red">*</span></td>
+									<td align="center"><label for="addressline2">Plot
+											Number</label> <input id="ADDRESS_LINE2"
+										name="abm_Address_Master.ADDRESS_LINE2" class="form-control"
+										type="text" value="" maxlength="100"></td>
+									<td><label for="addressline3">Address</label> <input
+										id="ADDRESS_LINE3" name="abm_Address_Master.ADDRESS_LINE3"
+										class="form-control" type="text" value="" maxlength="100"><span
+										style="color: red">*</span></td>
+								</tr>
+
+								<tr>
+									<td><label for="addressline4" data-toggle="tooltip"
+										data-placement="top" title="" data-original-title="">Landmark</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<input id="ADDRESS_LINE4"
+										name="abm_Address_Master.ADDRESS_LINE4" class="form-control"
+										type="text" value="" maxlength="100"><span
+										style="color: red">*</span></td>
+									<td align="center"><label for="city">City</label>
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<input type="text" class="form-control" id="exampleInputName2"
+										value=""></td>
+									<td><label for="postalCode">Postal Code</label> &nbsp; <input
+										id="ADDRESS_PINCODE" name="abm_Address_Master.ADDRESS_PINCODE"
+										placeholder="Ex. 444444" class="form-control" type="text"
+										value="" maxlength="6"><span style="color: red">*</span></td>
+								</tr>
+								<tr>
+									<td><label for="exampleInputName2">Mobile No</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<input id="IDN_PHONE_NO" name="abm_Idn.IDN_PHONE_NO"
+										placeholder="9898989898" class="form-control" type="text"
+										value="" maxlength="10"><span style="color: red">*</span>
+									</td>
+									<td align="center"><label for="exampleInputEmail2">Email
+											ID</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input
+										id="IDN_EMAIL1" name="abm_Idn.IDN_EMAIL" placeholder=""
+										class="form-control" type="text" value="" maxlength="50"><span
+										style="color: red">*</span></td>
+
+
+
+								</tr>
+
+
+							</tbody>
+						</table>
+					</div>
+
+					<table>
+						<tbody>
+							<tr>
+								<td><label for="exampleInputName2">Type Of
+										Connection</label> &nbsp;&nbsp; <span id="typeWater13"> <select
+										id="typeOfWaterConnectionSlum" name="systemLookupValue.SLV_ID"
+										style="border-radius: 5px;" class="form-control"
+										onchange="reloadWaterList()">
+											<option value="-1">--- Select ---</option>
+											<option value="11278">Domestic</option>
+											<option value="11279">Industrial</option>
+											<option value="11279">Commercial</option>
+									</select><span style="color: red">*</span>
+								</span> <input type="hidden" id="waterPurposeId" name="waterPurposeId"
+									value=""> <label for="exampleInputName2"
+									id="ccnNoNameID" style="display: none;"> CCN No : </label> <span
+									id="ccnNoID" style="display: none;"><input
+										id="IDN_CCN_NUMBER" name="abm_Idn.IDN_CCN_NUMBER" tabindex="1"
+										style="border-radius: 5px;" class="form-control"
+										onblur="checkCCN()" type="text" value="" maxlength="10"><span
+										style="color: red">*</span></span></td>
+								<td>
+								<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+								<td><label for="exampleInputName2">Does your
+										property provides rain water harvesting facility? </label>
+									&nbsp;&nbsp; <span id="typeWater13"> <select
+										id="typeOfWaterConnectionSlum" name="systemLookupValue.SLV_ID"
+										style="border-radius: 5px;" class="form-control"
+										onchange="reloadWaterList()">
+											<option value="-1">--- Select ---</option>
+											<option value="11278">Yes</option>
+											<option value="11279">No</option>
+									</select><span style="color: red">*</span>
+								</span> <input type="hidden" id="waterPurposeId" name="waterPurposeId"
+									value=""> <label for="exampleInputName2"
+									id="ccnNoNameID" style="display: none;"> CCN No : </label> <span
+									id="ccnNoID" style="display: none;"><input
+										id="IDN_CCN_NUMBER" name="abm_Idn.IDN_CCN_NUMBER" tabindex="1"
+										style="border-radius: 5px;" class="form-control"
+										onblur="checkCCN()" type="text" value="" maxlength="10"><span
+										style="color: red">*</span></span></td>
+							</tr>
+						</tbody>
+					</table>
+<br>
+					<table>
+						<tbody>
+						<tr>
+						<td>
+						<label for="exampleInputName2">Does your
+										property provides waste water recycling facility? (if Yes, please explain)</label>
+																</td>
+																<td>&nbsp;&nbsp;&nbsp;</td>
+																<td><textarea></textarea></td>
+						</tr>
+						</tbody>
+					</table>
+					<br> <br>
+					<hr>
+					<table>
+						<tbody>
+							<tr>
+								<td align="left"><label for="exampleInputName2"
+									style="align: left;">INLETS</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+								</td>
+								<td align="left"><label for="exampleInputEmail2">Thickness
+										1 </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input
+									id="IDN_EMAIL1" name="abm_Idn.IDN_EMAIL" placeholder=""
+									class="form-control" type="text" value="" maxlength="50"><span
+									style="color: red">*</span></td>
+								<td align="center"><input type="button"
+									class="btn btn-success btn-sm" value="Add"
+									onclick="return validate1();"></td>
+
+
+
+							</tr>
+						</tbody>
+					</table>
+					<br>
+					<hr>
+					<table>
+						<tbody>
+
+							<tr>
+								<td align="left"><label for="exampleInputName2"
+									style="align: left;">OUTLETS</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+								</td>
+								<td align="left"><label for="exampleInputEmail2">Thickness
+										1 </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input
+									id="IDN_EMAIL1" name="abm_Idn.IDN_EMAIL" placeholder=""
+									class="form-control" type="text" value="" maxlength="50"><span
+									style="color: red">*</span></td>
+								<td align="center"><input type="button"
+									class="btn btn-success btn-sm" value="Add"
+									onclick="return validate1();"></td>
+
+
+
+							</tr>
+						</tbody>
+					</table>
+
+
+					<br>
+					<div class="text-left" id="enlargmentCCN" style="display: none;">
+						<div class="form-group">
+
+							<label for="exampleInputName2" id="ccnNoNameID"> CCN
+								Name: </label> <input type="text" name="ccnNameE" id="ccnNameE" value=""
+								readonly="readonly" size="36"> <label
+								for="exampleInputName2" id="ccnNoNameID"> CCN Status : </label>
+							<input type="text" name="ccnStatusE" id="ccnStatusE"
+								readonly="readonly" size="10"> <label
+								for="enlargmentList">Enlargment Type :</label> <span id="">
+								<select id="enlargmentType" name="systemLookupValue.SLV_ID"
+								style="border-radius: 5px;" class="form-control"
+								onchange="enlargmentTypeListOnLoad(this);">
+									<option value="-1">--- Select ---</option>
+
+							</select>
+							</span>
+
+						</div>
+					</div>
+
+					<br>
+
+					<div class="" id="commercialCCNMemberDetailTable"
+						style="display: none;">
+
+						<table class="table table-condensed table-bordered"
+							id="comerTable123">
+							<thead>
+
+								<tr>
+									<th>#</th>
+									<th class="bg-success"
+										style="font-size: 14px; text-align: center;">Name</th>
+									<th class="bg-success"
+										style="font-size: 14px; text-align: center;">Address</th>
+									<th class="danger" style="font-size: 14px; text-align: center;">Valid
+										certificate issued by the Competent Authority.</th>
+									<th class="warning"
+										style="font-size: 14px; text-align: center;">Documentary
+										proof showing the existence of structure on or prior to
+										01.01.2000</th>
+									<th class="bg-success"
+										style="font-size: 14px; text-align: center;">No Action
+										Pending Certificate (can be submitted after issue of
+										permission form if condition to that effect prevails)</th>
+
+								</tr>
+							</thead>
+							<tbody id="comercialMemberCCNDetails">
+
+
+							</tbody>
+						</table>
+
+					</div>
+					<div class="" id="domasticCCNMemberDetailTable"
+						style="display: none;">
+
+						<table class="table table-condensed table-bordered">
+							<thead>
+								<tr>
+									<th colspan="1"></th>
+									<th class="bg-success" colspan="2" style="text-align: center;"></th>
+
+									<th colspan="4" class="danger"
+										style="font-size: 12px; text-align: center;">Eligibility
+										criteria to be submitted by the applicant (Any one form
+										following)</th>
+									<th colspan="2" class="info"
+										style="font-size: 12px; text-align: center;">Proof or
+										residence to be submitted by the applicant (Any one form
+										following)</th>
+
+								</tr>
+								<tr>
+									<th>#</th>
+									<th class="bg-success"
+										style="font-size: 14px; text-align: center;">Name</th>
+									<th class="bg-success"
+										style="font-size: 14px; text-align: center;">Address</th>
+									<th class="danger" style="font-size: 14px; text-align: center;">Electrol
+										Roll Serial No.</th>
+									<th class="danger" style="font-size: 14px; text-align: center;">Election
+										Card No.</th>
+									<th class="danger" style="font-size: 14px; text-align: center;">Photo
+										Pass</th>
+									<th class="danger" style="font-size: 14px; text-align: center;">Assessment
+										Extract</th>
+									<th class="info" style="font-size: 14px; text-align: center;">Aadhar
+										Card No.</th>
+									<th class="info" style="font-size: 14px; text-align: center;">Ration
+										Card No.</th>
+
+								</tr>
+							</thead>
+							<tbody id="domasticMemberCCNDetails">
+
+
+							</tbody>
+						</table>
+
+					</div>
+					<br> <br>
+
+
+
+
+
+					<div class="table-responsive" id="applicantTableDetailsID">
+
+						<table class="table table-bordered table-condensed"
+							id="domasticMemberDetails" style="display: none;">
+
+							<thead>
+								<tr>
+									<th colspan="1"></th>
+									<th class="bg-success" colspan="2" style="text-align: center;">
+										<!-- <input type="button" onclick="addGridApplicant(1)"
+									style="border-radius: 5px;" class="btn btn-primary btn-xs" 
+									value="Add More Applicant"> -->
+									</th>
+
+									<th colspan="4" class="danger"
+										style="font-size: 12px; text-align: center;">Eligibility
+										criteria to be submitted by the applicant (Any one from
+										following)</th>
+									<th colspan="2" class="info"
+										style="font-size: 12px; text-align: center;">Proof or
+										residence to be submitted by the applicant (Any one from
+										following)</th>
+
+								</tr>
+								<tr>
+									<th>#</th>
+									<th class="bg-success"
+										style="font-size: 14px; text-align: center;">Name</th>
+									<th class="bg-success"
+										style="font-size: 14px; text-align: center;">Address</th>
+									<th class="danger" style="font-size: 14px; text-align: center;">Electrol
+										Roll Year &amp; Serial No.</th>
+									<th class="danger" style="font-size: 14px; text-align: center;">Election
+										Card No.</th>
+									<th class="danger" style="font-size: 14px; text-align: center;">Photo
+										Pass</th>
+									<th class="danger" style="font-size: 14px; text-align: center;">Assessment
+										Extract</th>
+									<th class="info" style="font-size: 14px; text-align: center;">Aadhar
+										Card No.</th>
+									<th class="info" style="font-size: 14px; text-align: center;">Ration
+										Card No.</th>
+
+								</tr>
+							</thead>
+							<tbody id="newdomasticMemberDetails">
+
+							</tbody>
+						</table>
+
+
+						<table class="table table-bordered table-condensed"
+							id="comercialMemberDetails" style="display: none;">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th class="bg-success"
+										style="font-size: 14px; text-align: center;">Name</th>
+									<th class="bg-success"
+										style="font-size: 14px; text-align: center;">Address</th>
+									<th class="danger" style="font-size: 12px; text-align: center;">Valid
+										certificate issued by the Competent Authority.</th>
+									<th class="warning"
+										style="font-size: 12px; text-align: center;">Documentary
+										proof showing the existence of structure on or prior to
+										01.01.2000</th>
+									<th class="bg-success"
+										style="font-size: 12px; text-align: center;">No Action
+										Pending Certificate (can be submitted after issue of
+										permission form if condition to that effect prevails)</th>
+
+								</tr>
+							</thead>
+							<tbody id="newcomercialMemberDetails">
+
+							</tbody>
+						</table>
+
+					</div>
+
+					<table class="table table-bordered table-condensed"
+						id="standPostDocument" style="display: none;">
+						<thead>
+							<tr>
+
+								<th class="danger" style="font-size: 14px; text-align: center;">Sr
+									No:</th>
+								<th class="warning" style="font-size: 14px; text-align: center;">List
+									of Documents Enclosed:</th>
+
+							</tr>
+						</thead>
+						<tbody id="standPostDocumentDisplay">
+							<tr style="margin: left;">
+
+							</tr>
+						</tbody>
+					</table>
+
+					
+
+					<input type="hidden" id="tableMember" name="tableMember" value="">
+					<input type="hidden" id="ccnStatus" name="ccnStatus" value="">
+
+					<input type="button" class="btn btn-success btn-sm" value="Submit"
+						onclick="return validate1();"> <input type="button"
+						class="btn btn-success btn-sm"
+				
+						value="Home">
+
+				</form>
+			</div>
+		</div>
+
+
+	</div>
+
+
+
+</body>
+</html>
